@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.bg {
+  background: url("https://wallpaperaccess.com/full/7314.jpg");
+  display: flex;
+  position:fixed;
+  width: 200vh;
+  height: 200ch;
+  z-index: -1;
+  filter: blur(30px);
+}
+.loading_text {
+  font-size: 75px;
+  color: #fff;
+}
